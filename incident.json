@@ -1,0 +1,9 @@
+{
+    "company_id": "2109",
+    "type": "Incidente",
+    "date": "2025-12-28T10:00:00.000Z",
+    "location": "CMD Test Fix",
+    "description": "Curl Test Fix",
+    "severity": "Leve",
+    "status": "Aberto"
+}

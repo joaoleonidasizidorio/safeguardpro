@@ -1,0 +1,37 @@
+﻿  33	\N	Certificado NR 34	\N	2026-01-01 18:50:12.288913	Certificamos que{nome}, portador do CPF {cpf} concluiu com 
+  14	\N	Certificado NR 10   SEP	\N	2026-01-01 18:50:11.859943	Certificamos que {nome}, portador do CPF {cpf}, concluiu 
+  18	\N	Certificado NR 14	\N	2026-01-01 18:50:11.984443	Certificamos que {nome}, portador do CPF {cpf}, concluiu com 
+  7	\N	Certificado NR 01	\N	2026-01-01 18:50:11.686315	Certificamos que {nome}, portador do CPF {cpf},concluiu com 
+  25	\N	Certificado NR 22	\N	2026-01-01 18:50:12.134206	Certificamos que {nome}, portador do CPF {cpf}, concluiu com 
+  29	\N	Certificado NR 30	\N	2026-01-01 18:50:12.221648	Certificamos que {nome},, portador do CPF {cpf}, concluiu com 
+  23	\N	Certificado NR 18   Cadeira Suspensa	\N	2026-01-01 18:50:12.087583	Certificamos que {nome}, portador do CPF 
+  35	\N	Certificado NR 36	\N	2026-01-01 18:50:12.33942	Certificamos que{nome}, portador do CPF {nome}, concluiu com 
+  27	\N	Certificado NR 26	\N	2026-01-01 18:50:12.190764	Certificamos que {nome}, portador do CPF {cpf}, concluiu com 
+  24	\N	Certificado NR 19	\N	2026-01-01 18:50:12.107565	Certificamos que {nome}, portador do CPF {cpf}, concluiu com 
+  2	\N	Certificado NR 18   BÃ¡sico	\N	2026-01-01 18:50:11.559303	Certificamos que {nome}, portador do CPF {cpf}, 
+  22	\N	Certificado NR 17   OP. TELEMARKETING	\N	2026-01-01 18:50:12.054188	Certificamos que {nome}, portador do CPF 
+  21	\N	Certificado NR 17   OP. CHECKOUT	\N	2026-01-01 18:50:12.042105	Certificamos que {nome}, portador do CPF {cpf}, 
+  20	\N	Certificado NR 16	\N	2026-01-01 18:50:12.03021	Certificamos que {nome}, portador do CPF {cpf}, concluiu com 
+  19	\N	Certificado NR 15	\N	2026-01-01 18:50:12.006997	Certificamos que {nome}, portador do CPF {cpf}, concluiu com 
+  36	\N	Certificado NR 37	\N	2026-01-01 18:50:12.379219	Certificamos que{nome},portador do CPF{cpf},concluiu com 
+  32	\N	Certificado NR 33   Trabalhador e Vigia	\N	2026-01-01 18:50:12.270174	Certificamos que {nome}, portador do CPF 
+  31	\N	Certificado NR 33   Supervisor	\N	2026-01-01 18:50:12.256657	Certificamos que {nome}, portador do CPF {cpf}. 
+  30	\N	Certificado NR 31	\N	2026-01-01 18:50:12.245187	Certificamos que {nome}, portador do CPF {cpf}, concluiu com 
+  37	\N	Certificado NR 38	\N	2026-01-01 18:50:12.413228	Certificamos que {nome}, portador do CPF{cpf}, concluiu com 
+  28	\N	Certificado NR 29	\N	2026-01-01 18:50:12.202746	Certificamos que {nome}, portador do CPF {cpf}, concluiu com 
+  12	\N	Certificado NR 08	\N	2026-01-01 18:50:11.820497	Certificamos que {nome}, portador do CPF {cpf}, concluiu com 
+  1	\N	Certificado NR 10   BÃ¡sico	\N	2026-01-01 18:50:11.410187	Certificamos que {nome}, portador do CPF {cpf} 
+  26	\N	Certificado NR 23	\N	2026-01-01 18:50:12.16269	Certificamos que {nome}, portador do CPF {cpf}, concluiu com 
+  9	\N	Certificado NR 05	\N	2026-01-01 18:50:11.728568	Certificamos que {nome}, portador do CPF {cpf},concluiu com 
+  34	\N	Certificado NR 35	\N	2026-01-01 18:50:12.312449	Certificamos que {nome}, portador do CPF {cpf}, concluiu com 
+  15	\N	Certificado NR 11	\N	2026-01-01 18:50:11.904579	Certificamos que {nome}, portador do CPF {cpf}, concluiu com 
+  16	\N	Certificado NR 12	\N	2026-01-01 18:50:11.939108	Certificamos que {nome}, portador do CPF {cpf}, concluiu com 
+  17	\N	Certificado NR 13	\N	2026-01-01 18:50:11.956932	\nCertificamos que {nome}, portador do CPF {cpf}, concluiu com 
+  5	\N	Certificado NR 32   ResÃduos Hospitalares	\N	2026-01-01 18:50:11.626301	Certificamos que {nome}, portador do 
+  4	\N	Certificado NR 20   IniciaÃ§Ã£o	\N	2026-01-01 18:50:11.594256	Certificamos que {nome}, portador do CPF {cpf}, 
+  3	\N	Certificado NR 20   BÃ¡sico	\N	2026-01-01 18:50:11.579313	Certificamos que {nome}, portador do CPF {cpf}, 
+  13	\N	Certificado NR 09	\N	2026-01-01 18:50:11.83376	Certificamos que {nome}, portador do CPF {cpf}, concluiu com 
+  11	\N	Certificado NR 07	\N	2026-01-01 18:50:11.789019	Certificamos que {nome}, portador do CPF {cpf},concluiu com 
+  10	\N	Certificado NR 06	\N	2026-01-01 18:50:11.758292	Certificamos que {nome}, portador do CPF {cpf}, concluiu com 
+  8	\N	Certificado NR 04	\N	2026-01-01 18:50:11.700133	Certificamos que {nome}, portador do CPF {cpf}, concluiu com 
+  6	\N	Certificado NR 32   Riscos BiolÃ³gicos	\N	2026-01-01 18:50:11.656145	Certificamos que {nome}, portador do CPF 

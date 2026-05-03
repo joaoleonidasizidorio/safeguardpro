@@ -1,0 +1,69 @@
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: safeguardpro-db
+    restart: always
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-password}
+      POSTGRES_DB: ${POSTGRES_DB:-safeguardpro}
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-user} -d ${POSTGRES_DB:-safeguardpro}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: safeguardpro-backend
+    restart: always
+    ports:
+      - "7001:7000"
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-user}:${POSTGRES_PASSWORD:-password}@db:5432/${POSTGRES_DB:-safeguardpro}
+      PORT: 7000
+      NODE_ENV: development
+      # SMTP Configuration
+      SMTP_HOST: ${SMTP_HOST:-smtp.ethereal.email}
+      SMTP_PORT: ${SMTP_PORT:-587}
+      SMTP_USER: ${SMTP_USER:-mock_user}
+      SMTP_PASS: ${SMTP_PASS:-mock_pass}
+      SMTP_FROM: ${SMTP_FROM:-"SafeGuardPro SST <noreply@safeguardpro.com>"}
+      # WhatsApp Configuration (Twilio)
+      TWILIO_ACCOUNT_SID: ${TWILIO_ACCOUNT_SID:-""}
+      TWILIO_AUTH_TOKEN: ${TWILIO_AUTH_TOKEN:-""}
+      TWILIO_FROM_NUMBER: ${TWILIO_FROM_NUMBER:-""}
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+      - ./backend/uploads:/app/uploads
+    command: npm run dev
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: safeguardpro-frontend
+    restart: always
+    ports:
+      - "6001:6001"
+    environment:
+      VITE_API_URL: ""
+      VITE_API_TARGET: http://backend:7000
+    depends_on:
+      - backend
+    volumes:
+      - .:/app
+      - /app/node_modules
+
+volumes:
+  db_data:
